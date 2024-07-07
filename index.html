@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruota della Fortuna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ruota della Fortuna</h1>
+    <div id="wheelContainer">
+        <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        <div id="arrow"></div>
+    </div>
+    <button id="spinButton">Gira la Ruota</button>
+
+    <div id="formContainer" style="display: none;">
+        <h2>Wanna marry me?</h2>
+        <form id="marryForm" action="save.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="instagram">Contatto Instagram:</label>
+            <input type="text" id="instagram" name="instagram" required>
+            <br>
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
