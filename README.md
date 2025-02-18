@@ -1,2 +1,2 @@
 # exmaple
-example
+A simple fortune wheel for fun
